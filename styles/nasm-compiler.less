@@ -6,14 +6,16 @@
 
 .nasm-compiler-toolbar {
   display: flex;
-  padding: 0 @component-padding;
-  align-items: center;
+  padding: 8px;
+  background: @base-background-color;
+  border-bottom: 1px solid @base-border-color;
 
   .btn {
-    margin-right: @component-padding;
+    margin-right: 8px;
+    padding: 4px 8px;
 
-    &.btn-success {
-      color: @text-color-success;
+    .icon {
+      margin-right: 4px;
     }
   }
 }
