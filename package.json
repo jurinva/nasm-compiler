@@ -10,7 +10,10 @@
     "asm",
     "toolbar"
   ],
-  "repository": "https://github.com/yourusername/nasm-compiler",
+  "activationCommands": {
+    "atom-workspace": "nasm-compiler:toggle"
+  },
+  "repository": "https://github.com/jurinva/nasm-compiler",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -22,5 +25,6 @@
       }
     }
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }

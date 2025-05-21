@@ -1,16 +1,25 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
 @import "ui-variables";
 
 .nasm-compiler-toolbar {
   display: flex;
   padding: 0 @component-padding;
+  align-items: center;
 
   .btn {
     margin-right: @component-padding;
+
     &.btn-success {
       color: @text-color-success;
     }
-    &.btn-error {
-      color: @text-color-error;
-    }
+  }
+}
+
+.nasm-compiler {
+  .message {
+    padding: @component-padding;
   }
 }

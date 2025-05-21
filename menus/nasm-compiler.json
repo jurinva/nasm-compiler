@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nasm-compiler",
+        "command": "nasm-compiler:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nasm-compiler",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nasm-compiler:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
