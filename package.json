@@ -1,0 +1,25 @@
+  "name": "nasm-compiler",
+  "main": "./lib/nasm-compiler",
+  "version": "0.2.0",
+  "description": "Compile NASM assembly files directly from Atom/Pulsar with toolbar buttons",
+  "keywords": [
+    "nasm",
+    "assembly",
+    "compiler",
+    "asm",
+    "toolbar"
+  ],
+  "repository": "https://github.com/yourusername/nasm-compiler",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {}
+}
