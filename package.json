@@ -1,3 +1,4 @@
+{
   "name": "nasm-compiler",
   "main": "./lib/nasm-compiler",
   "version": "0.2.0",
