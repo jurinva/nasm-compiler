@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "nasm-compiler:compile",
+    "ctrl-alt-r": "nasm-compiler:compileAndRun"
+  }
+}

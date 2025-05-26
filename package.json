@@ -1,0 +1,29 @@
+{
+  "name": "nasm-compiler",
+  "main": "./lib/nasm-compiler",
+  "version": "0.2.0",
+  "description": "Compile NASM assembly files directly from Atom/Pulsar with menu",
+  "keywords": [
+    "nasm",
+    "assembly",
+    "compiler",
+    "asm",
+    "toolbar"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "nasm-compiler:compile",
+      "nasm-compiler:compileAndRun"
+    ],
+    "atom-workspace": [
+      "nasm-compiler:compile",
+      "nasm-compiler:compileAndRun"
+    ]
+  },
+  "repository": "https://github.com/jurinva/nasm-compiler",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+}

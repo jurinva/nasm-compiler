@@ -1,0 +1,49 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "NASM",
+        "submenu": [
+          {
+            "label": "Compile",
+            "command": "nasm-compiler:compile"
+          },
+          {
+            "label": "Compile and Run",
+            "command": "nasm-compiler:compileAndRun"
+          }
+        ]
+      }
+    ],
+    "atom-workspace": [
+      {
+        "label": "NASM",
+        "submenu": [
+          {
+            "label": "Compile",
+            "command": "nasm-compiler:compile"
+          },
+          {
+            "label": "Compile and Run",
+            "command": "nasm-compiler:compileAndRun"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "NASM",
+      "submenu": [
+          {
+            "label": "Compile",
+            "command": "nasm-compiler:compile"
+          },
+          {
+            "label": "Compile and Run",
+            "command": "nasm-compiler:compileAndRun"
+          }
+      ]
+    }
+  ]
+}
